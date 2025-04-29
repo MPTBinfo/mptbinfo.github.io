@@ -1,4 +1,4 @@
-const WEBAPP_URL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec";
+const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwOkbcksDOHoOIGzJOTsMqTtTm8Yaggjds_UJttqZUdbl23x51Yc6iw3mhcLGt6xM25xA/exec";
 
 function toggleForm(form) {
   document.getElementById("loginBox").style.display = form === "login" ? "block" : "none";
