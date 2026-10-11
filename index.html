@@ -1,108 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MP Tourism - Linktree</title>
-    <style>
-        body {
-            background-color: #f4efe6;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            color: #2e3b1f;
-            background-image: url('tiger-pattern.png');
-            background-size: cover;
-            background-blend-mode: soft-light;
-        }
-        .container {
-            margin-top: 50px;
-        }
-        h1 {
-            text-shadow: 0 0 10px #d4a017;
-        }
-        .logo {
-            width: 150px;
-            height: auto;
-            margin: 20px auto;
-        }
-        .section {
-            margin-top: 30px;
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 10px;
-            width: 80%;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-            box-shadow: 0 0 10px #ccc;
-        }
-        .link {
-            display: block;
-            background: #6b4226;
-            color: white;
-            padding: 15px;
-            margin: 10px auto;
-            width: 90%;
-            max-width: 500px;
-            border-radius: 25px;
-            font-size: 18px;
-            text-decoration: none;
-            font-weight: bold;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s;
-        }
-        .link:hover {
-            background: #d4a017;
-            color: black;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-        }
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background-color: #5a3825;
-            color: white;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c2f">
+  <meta name="description" content="MPTBinfo — a central link tree for Madhya Pradesh Tourism Board digital tools, water tourism projects, event systems and resources.">
+  <title>MPTBinfo | Central Link Tree</title>
+  <style>
+    :root{color-scheme:light;--forest:#123c2f;--forest2:#1b5742;--gold:#c7a45a;--cream:#f5f3ec;--ink:#20312b;--muted:#65736c;--line:#e0e5dc;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit}.hero{background:radial-gradient(ellipse at 85% 5%,#2a6b4e 0,transparent 35%),linear-gradient(135deg,#0d2d24,#174b39 65%,#123c2f);color:#fff;padding:34px 20px 48px;border-bottom:4px solid var(--gold)}
+    .wrap{width:min(1100px,100% - 32px);margin:auto}.top{display:flex;align-items:center;gap:14px}.mark{width:52px;height:52px;border:1px solid #c7a45a;border-radius:15px;display:grid;place-items:center;color:#e2c77f;font-weight:900;letter-spacing:-2px;font-size:21px;background:#ffffff0b}.eyebrow{text-transform:uppercase;letter-spacing:.17em;font-size:11px;font-weight:800;color:#e2c77f}.brand{font-size:21px;font-weight:800;letter-spacing:.02em}.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.08;letter-spacing:-.04em;max-width:720px;margin:38px 0 14px}.hero p{color:#e0eae2;max-width:650px;margin:0;font-size:17px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.pill{display:inline-flex;align-items:center;justify-content:center;padding:10px 15px;border-radius:999px;text-decoration:none;font-size:13px;font-weight:750;border:1px solid #ffffff55}.pill.primary{background:var(--gold);border-color:var(--gold);color:#182d23}.pill:hover,.card:hover{transform:translateY(-2px)}main{padding:30px 0 58px}.toolbar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:25px}.search{flex:1;min-width:230px;max-width:430px;padding:13px 15px;border:1px solid #d5ddd2;border-radius:12px;background:#fff;font:inherit;outline-color:var(--gold)}.count{font-size:13px;color:var(--muted)}.section{margin:30px 0 38px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:14px}.section h2{font-size:21px;letter-spacing:-.02em;margin:0;color:var(--forest)}.section-head p{margin:4px 0 0;color:var(--muted);font-size:13px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.card{display:flex;flex-direction:column;min-height:178px;padding:18px;border:1px solid var(--line);border-radius:16px;background:#fff;text-decoration:none;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease;box-shadow:0 3px 12px #183a2510}.card:hover{border-color:#c6b47e;box-shadow:0 10px 24px #183a2515}.card-top{display:flex;align-items:center;justify-content:space-between;gap:8px}.glyph{width:37px;height:37px;border-radius:11px;background:#eaf1e9;color:var(--forest);display:grid;place-items:center;font-size:18px}.tag{font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;color:#64736b;background:#f2f4ef;padding:5px 7px;border-radius:6px}.card h3{font-size:16px;margin:13px 0 5px;color:#183c2e}.card p{font-size:13px;color:var(--muted);margin:0 0 16px}.card .open{margin-top:auto;font-size:12px;font-weight:800;color:#356a4f}.card .open span{color:#b28b37;margin-left:4px}.empty{display:none;background:white;border:1px dashed #cbd6c9;border-radius:12px;padding:22px;text-align:center;color:var(--muted)}footer{background:#102e25;color:#d7e1d8;padding:24px 16px;font-size:12px}footer .foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}footer a{color:#e3c77d;text-decoration:none}.notice{font-size:12px;color:var(--muted);margin-top:20px}
+    @media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding-top:25px}}@media(max-width:520px){.grid{grid-template-columns:1fr}.card{min-height:150px}.hero h1{margin-top:30px}.brand{font-size:18px}}
+  </style>
 </head>
 <body>
-    <div class="container">
-        <img class="logo" src="https://static.wixstatic.com/media/614cf9_a101f0e0b63443febc5c09a95f93010a~mv2.png/v1/fill/w_226,h_300,al_c,q_85,usm_1.20_1.00_0.01,enc_avif,quality_auto/MPT_Logo_00.png" alt="MP Tourism Logo">
-        <h1>Madhya Pradesh Tourism Board</h1>
-        
-        <div class="section">
-            <h2>🌍 Official Links</h2>
-            <a class="link" href="https://www.tourism.mp.gov.in" target="_blank">Official Website</a>
-            <a class="link" href="https://www.tourism.mp.gov.in/viewall?page=Policy&number=Y7Ubn6c7hvLjihiwyLyQ/w==&ty=ydRRTTxkdt6Trx91pX1+cA==" target="_blank">Policies</a>
-            <a class="link" href="https://mptbinfo.github.io/WT" target="_blank">WT_Admin Login</a>
-        </div>
-        
-        <div class="section">
-            <h2>📢 Social Media</h2>
-            <a class="link" href="https://www.instagram.com/mptourism" target="_blank">Instagram</a>
-            <a class="link" href="https://www.facebook.com/mptourism" target="_blank">Facebook</a>
-            <a class="link" href="https://twitter.com/MPTourism" target="_blank">Twitter/X</a>
-            <a class="link" href="https://www.youtube.com/c/mptourism" target="_blank">YouTube</a>
-            <a class="link" href="https://www.linkedin.com/company/madhya-pradesh-tourism" target="_blank">LinkedIn</a>
-        </div>
-        
-        <div class="section">
-            <h2>🏞 Tourism & Adventure</h2>
-            <a class="link" href="https://www.mptourism.com/itinerary.php" target="_blank">Tour Packages</a>
-            <a class="link" href="https://www.mptourism.com/accomodation.php" target="_blank">Hotels and Resorts</a>
-            <a class="link" href="https://www.mptourism.com/adventure.php" target="_blank">Adventure & Activities</a>
-        </div>
-        
-        <div class="section">
-            <h2>📞 Contact Us</h2>
-            <a class="link" href="mailto:info.mptb@mp.gov.in" target="_blank">E-Mail</a>
-            <a class="link" href="tel:07552780600" target="_blank">Call Us</a>
-        </div>
+  <header class="hero">
+    <div class="wrap">
+      <div class="top">
+        <div class="mark" aria-hidden="true">MP</div>
+        <div><div class="eyebrow">Madhya Pradesh Tourism Board</div><div class="brand">MPTBinfo</div></div>
+      </div>
+      <h1>One place for our digital ecosystem.</h1>
+      <p>A central link tree for Water Tourism, project systems, event platforms, policy resources and the tools built across MPTBinfo.</p>
+      <div class="hero-actions">
+        <a class="pill primary" href="#applications">Explore applications ↓</a>
+        <a class="pill" href="https://github.com/MPTBinfo">View GitHub organisation ↗</a>
+        <a class="pill" href="https://www.tourism.mp.gov.in" target="_blank" rel="noopener noreferrer">MPTB website ↗</a>
+      </div>
     </div>
-    
-    <footer>
-        <p>📍 Madhya Pradesh Tourism Board, 6th Floor, Lily Trade Wing, Jahangirabad, Bhopal, 462008</p>
-        <p>📧 info.mptb@mp.gov.in | ☎️ 0755-2780600</p>
-    </footer>
+  </header>
+  <main class="wrap" id="applications">
+    <div class="toolbar">
+      <input class="search" id="search" type="search" placeholder="Search tools, projects or repositories…" aria-label="Search tools and repositories">
+      <div class="count" id="count" aria-live="polite">14 repositories · search to filter</div>
+    </div>
+
+    <section class="section" data-section>
+      <div class="section-head"><div><h2>Water Tourism</h2><p>Water tourism operations, rules and application development.</p></div></div>
+      <div class="grid">
+        <a class="card" data-search="WT water tourism admin dashboard registration operator" href="https://mptbinfo.github.io/WT" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">≋</span><span class="tag">Web app</span></div><h3>Water Tourism Admin</h3><p>Water Tourism administration portal.</p><div class="open">Open application <span>↗</span></div></a>
+        <a class="card" data-search="wtapp water tourism app nextjs" href="https://github.com/MPTBinfo/wtapp" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">◈</span><span class="tag">Repository</span></div><h3>WT App</h3><p>Water Tourism application codebase.</p><div class="open">View repository <span>↗</span></div></a>
+        <a class="card" data-search="wtapp-tp water tourism private app" href="https://github.com/MPTBinfo/wtapp-tp" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">⌘</span><span class="tag">Private repo</span></div><h3>WT App · TP</h3><p>Additional Water Tourism application workspace. GitHub access may be required.</p><div class="open">View repository <span>↗</span></div></a>
+        <a class="card" data-search="wtrules rules procedure policy water tourism" href="https://github.com/MPTBinfo/wtrules" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">§</span><span class="tag">Repository</span></div><h3>Water Tourism Rules</h3><p>Rules and policy-related digital resources.</p><div class="open">View repository <span>↗</span></div></a>
+      </div>
+    </section>
+
+    <section class="section" data-section>
+      <div class="section-head"><div><h2>Projects, Events & Tourism Systems</h2><p>Project-specific platforms and event management codebases.</p></div></div>
+      <div class="grid">
+        <a class="card" data-search="MPTMME Madhya Pradesh Travel Mart event management" href="https://github.com/MPTBinfo/MPTMME" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">✦</span><span class="tag">Repository</span></div><h3>MPTM Event System</h3><p>Madhya Pradesh Travel Mart digital system.</p><div class="open">View repository <span>↗</span></div></a>
+        <a class="card" data-search="SLEC 30 MAY 25 state level empowered committee" href="https://github.com/MPTBinfo/SLEC_30_MAY_25" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">▤</span><span class="tag">Repository</span></div><h3>SLEC Project</h3><p>State Level Empowered Committee project workspace.</p><div class="open">View repository <span>↗</span></div></a>
+        <a class="card" data-search="LST tourism system" href="https://github.com/MPTBinfo/LST" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">◫</span><span class="tag">Private repo</span></div><h3>LST</h3><p>Project workspace. GitHub access may be required.</p><div class="open">View repository <span>↗</span></div></a>
+        <a class="card" data-search="HGT tourism system" href="https://github.com/MPTBinfo/HGT" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">⌂</span><span class="tag">Repository</span></div><h3>HGT</h3><p>Tourism project application workspace.</p><div class="open">View repository <span>↗</span></div></a>
+      </div>
+    </section>
+
+    <section class="section" data-section>
+      <div class="section-head"><div><h2>Administration & Productivity</h2><p>Internal workflows, personal profile and utility tools.</p></div></div>
+      <div class="grid">
+        <a class="card" data-search="pa2md assistant to managing director office workflow" href="https://github.com/MPTBinfo/pa2md" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">▦</span><span class="tag">Repository</span></div><h3>PA to MD</h3><p>Office workflow and administrative application.</p><div class="open">View repository <span>↗</span></div></a>
+        <a class="card" data-search="myprofile profile" href="https://mptbinfo.github.io/myprofile" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">◎</span><span class="tag">Web app</span></div><h3>My Profile</h3><p>Profile page.</p><div class="open">Open page <span>↗</span></div></a>
+        <a class="card" data-search="4DigitSolver four digit solver utility game" href="https://mptbinfo.github.io/4DigitSolver" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">123</span><span class="tag">Web app</span></div><h3>4 Digit Solver</h3><p>Four-digit puzzle utility.</p><div class="open">Open application <span>↗</span></div></a>
+        <a class="card" data-search="first prototype experiment" href="https://github.com/MPTBinfo/first" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">✳</span><span class="tag">Repository</span></div><h3>First</h3><p>Prototype and experiment workspace.</p><div class="open">View repository <span>↗</span></div></a>
+      </div>
+    </section>
+
+    <section class="section" data-section>
+      <div class="section-head"><div><h2>Links & Reference</h2><p>Central references and source repositories.</p></div></div>
+      <div class="grid">
+        <a class="card" data-search="Links central links policy maheshwar wtapp" href="https://github.com/MPTBinfo/Links" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">↗</span><span class="tag">Repository</span></div><h3>Links Hub</h3><p>Existing links and reference pages.</p><div class="open">View repository <span>↗</span></div></a>
+        <a class="card" data-search="MPTBinfo github pages central landing page source code" href="https://github.com/MPTBinfo/mptbinfo.github.io" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="glyph">⌘</span><span class="tag">This site</span></div><h3>MPTBinfo Link Tree</h3><p>Central landing page and directory of digital tools.</p><div class="open">View source <span>↗</span></div></a>
+      </div>
+    </section>
+    <div class="empty" id="empty">No matching links found. Try another search term.</div>
+    <p class="notice">Note: links labelled “Web app” point to the existing GitHub Pages-style paths. Other entries open their source repositories. Application availability depends on each project's hosting and access permissions.</p>
+  </main>
+  <footer><div class="wrap foot"><div><strong>MPTBinfo</strong> · Central digital link tree</div><div><a href="https://www.tourism.mp.gov.in" target="_blank" rel="noopener noreferrer">Madhya Pradesh Tourism Board</a> · <a href="https://github.com/MPTBinfo" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></footer>
+  <script>
+    const search = document.getElementById('search');
+    const cards = [...document.querySelectorAll('.card')];
+    const sections = [...document.querySelectorAll('[data-section]')];
+    const count = document.getElementById('count');
+    const empty = document.getElementById('empty');
+    search.addEventListener('input', () => {
+      const q = search.value.trim().toLowerCase();
+      let visible = 0;
+      cards.forEach(card => {
+        const match = !q || (card.innerText + ' ' + (card.dataset.search || '')).toLowerCase().includes(q);
+        card.hidden = !match;
+        if (match) visible++;
+      });
+      sections.forEach(section => section.hidden = !section.querySelector('.card:not([hidden])'));
+      count.textContent = q ? visible + ' matching link' + (visible === 1 ? '' : 's') : cards.length + ' links · all repositories';
+      empty.style.display = visible ? 'none' : 'block';
+    });
+  </script>
 </body>
 </html>
